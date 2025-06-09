@@ -1,3 +1,4 @@
+//global variables...if you want to comment on the lack of security with global variables....just don't
 let disp;
 var num1, num2;
 var num1Str = "",
@@ -5,10 +6,14 @@ var num1Str = "",
 var num1InProg = true;
 var operation = "";
 
+//init disp on load
 window.onload = function () {
   disp = document.getElementById("screen");
 };
+
+
 function main(btnPressed) {
+  //switch case to call relevant function for each button that can be pressed
   switch (btnPressed) {
     case 0:
       zero();
@@ -154,6 +159,7 @@ function add() {
 }
 function equal() {
   num2 = parseInt(disp.innerHTML);
+  //switch to do match according to operand selected
   switch (operation) {
     case "/":
       disp.innerHTML = num1 / num2;

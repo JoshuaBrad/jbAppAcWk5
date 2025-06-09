@@ -1,0 +1,56 @@
+.num{
+border: 2px outset grey;
+background-color: rgb(150, 150, 150);
+color: white;
+}
+.num:hover{
+border: 2px inset grey;
+background-color: rgb(130, 130, 130);
+}
+table{
+table-layout: fixed;
+width: 100%;
+padding: 1%;
+border: 5px solid black;
+border-radius: 15px;
+}
+body{
+text-align: center;
+font-size: 30pt;
+background-color: rgb(50, 50, 50);
+font-family: Arial, Helvetica, sans-serif;
+}
+#screen{
+width: 100%;
+border: 2px solid darkgrey;
+background-color: rgb(80, 80, 80);
+color: white;
+text-align: right;
+}
+#AC{
+border: 2px outset darkgrey;
+padding: 0;
+background-color: rgb(80, 80, 80);
+color: white;
+}
+#AC:hover{
+border: 2px inset darkgrey;
+background-color: rgb(60, 60, 60);
+color: white;
+}
+.operators{
+background-color: orange;
+border: 2px outset darkorange;
+color: white;
+font-weight: 700;
+}
+.operators:hover{
+background-color: rgb(192, 126, 5);
+border: 2px inset darkorange;
+color: white;
+}
+td{
+border-radius: 10px;
+padding: 5px;
+margin: 0px;
+}

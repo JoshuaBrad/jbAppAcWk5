@@ -65,6 +65,8 @@ function main(btnPressed) {
       break;
   }
 }
+
+//Not adding comments for each number nor operands, they are super self-explanatory
 function zero() {
   if (disp.innerHTML != "0") {
     disp.innerHTML += "0";
@@ -177,6 +179,8 @@ function equal() {
   num1 = "";
   num2 = "";
 }
+
+//Clears the screen and numbers... what else would you expect???
 function clear(){
     num1 ="";
     num2="";

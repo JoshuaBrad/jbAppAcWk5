@@ -27,6 +27,11 @@ background-color: rgb(80, 80, 80);
 color: white;
 text-align: right;
 }
+td{
+border-radius: 10px;
+padding: 5px;
+margin: 0px;
+}
 #seven{
     border-radius: 50%;
 }
@@ -52,11 +57,7 @@ background-color: rgb(192, 126, 5);
 border: 2px inset darkorange;
 color: white;
 }
-td{
-border-radius: 10px;
-padding: 5px;
-margin: 0px;
-}
+
 tr{
 height: 15.2vh;
 }

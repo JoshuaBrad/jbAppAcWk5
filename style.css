@@ -28,7 +28,7 @@ color: white;
 text-align: right;
 }
 #seven{
-    background-color: rgb(10, 150, 150);
+    border-radius: 50%;
 }
 #AC{
 border: 2px outset darkgrey;
